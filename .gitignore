@@ -416,3 +416,17 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+############################
+# Strapi
+############################
+
+.strapi
+dist
+build
+.strapi-updater.json
+.strapi-cloud.json
+license.txt
+exports
+public/uploads/*
+!public/uploads/.gitkeep
